@@ -3,248 +3,36 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GIG Income | Income, Expenses &amp; Mileage Tracker for Gig Workers</title>
-<meta name="description" content="Track gig income, expenses, work miles and time, connect trips to earnings, and export PDF and CSV mileage reports with GIG Income.">
+<title>GIG Income | Income, Expenses, Mileage & Gig Work Tracker</title>
+<meta name="description" content="Track gig income, expenses, net profit, mileage, work time, goals and Amazon Flex hours in one iPhone app. Explore Pro, Mileage and Bundle plans.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://vm-lab.us/gig-income/">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="stylesheet" href="/assets/css/styles.css">
-<style>.app-title-row{display:flex;align-items:center;gap:18px;margin:18px 0 6px}.app-icon{width:92px;height:92px;border-radius:22px;box-shadow:0 18px 40px rgba(0,0,0,.22);object-fit:cover}.app-title-row h1{margin:0}.app-download-block{margin-top:26px}.app-store-badge{display:inline-flex}.app-store-badge img{display:block;width:180px;height:54px}.download-note{margin:10px 0 0;color:var(--muted);font-size:14px}.hero .app-download-block+.actions{margin-top:18px}.store-actions{display:flex;align-items:center;gap:14px;margin-top:26px;flex-wrap:nowrap}.store-actions .app-store-badge,.store-actions .btn{width:180px;height:54px;flex:0 0 180px}.store-actions .app-store-badge img{display:block;width:180px;height:54px}.store-actions .btn{padding:0 14px;border-radius:12px}@media(max-width:520px){.store-actions{gap:12px}.store-actions .app-store-badge,.store-actions .btn{width:173px;height:52px;flex-basis:173px}.store-actions .app-store-badge img{width:173px;height:52px}}.hero-product-shot{display:flex;align-items:center;justify-content:center;min-height:360px;padding:0;background:transparent;border:0;box-shadow:none}.hero-product-shot img{display:block;width:100%;max-width:210px;height:auto;object-fit:contain;transform:rotate(5deg);transform-origin:center;border-radius:24px;box-shadow:0 18px 40px rgba(15,35,64,.16)}.feature-card{min-height:230px;display:flex;flex-direction:column}.feature-card .mini-btn{margin-top:auto}.version-pill{display:inline-flex;margin-top:16px;padding:8px 13px;border-radius:999px;background:#fff;border:1px solid var(--border);font-size:13px;font-weight:800;color:var(--navy)}.screenshots{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.screenshots img{width:100%;height:auto;display:block;border-radius:22px;box-shadow:var(--shadow);border:1px solid var(--border);background:#06111f}.page-copy{max-width:760px}.mileage-feature{background:var(--soft);border-block:1px solid var(--border)}.mileage-title{display:flex;justify-content:space-between;align-items:flex-start;gap:24px}.mileage-title p{max-width:760px;font-size:18px}.mileage-grid{margin-top:24px}.mileage-grid .card{min-height:210px}.mileage-flow{display:grid;grid-template-columns:repeat(6,1fr);gap:9px;margin:24px 0}.mileage-step{background:#fff;border:1px solid var(--border);border-radius:15px;padding:15px}.mileage-step b{display:block;color:var(--navy)}.mileage-step span{font-size:13px;color:var(--muted)}.mileage-columns{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}.mileage-box{background:#fff;border:1px solid var(--border);border-radius:20px;padding:22px}.mileage-box h3{margin-top:0}.mileage-box ul{padding-left:20px;color:var(--muted)}.mileage-note{padding:16px 18px;border-left:4px solid #2c9b57;background:#e4f4ea;border-radius:12px}.mileage-faq details{background:#fff;border:1px solid var(--border);border-radius:14px;padding:0 16px;margin-top:9px}.mileage-faq summary{padding:14px 20px 14px 0;font-weight:800;cursor:pointer}.mileage-faq p{margin:0 0 15px}.ru-block{margin-top:28px}.ru-block>summary{width:max-content;max-width:100%;padding:11px 15px;border-radius:12px;background:var(--navy);color:#fff;font-weight:800;cursor:pointer}.ru-content{margin-top:20px}@media(max-width:980px){.screenshots{grid-template-columns:repeat(2,1fr)}.hero-product-shot{min-height:320px}.hero-product-shot img{max-width:200px}.mileage-flow{grid-template-columns:repeat(3,1fr)}}@media(max-width:760px){.hero-product-shot{min-height:0;margin-top:20px}.hero-product-shot img{max-width:190px}.mileage-title,.mileage-columns{display:block}.mileage-columns .mileage-box+.mileage-box{margin-top:14px}.mileage-flow{grid-template-columns:1fr 1fr}}@media(max-width:560px){.app-title-row{display:block}.app-icon{margin-bottom:14px}.screenshots{grid-template-columns:1fr}.mileage-flow{grid-template-columns:1fr}}</style>
+<style>
+.app-title-row{display:flex;align-items:center;gap:18px;margin:18px 0 6px}.app-icon{width:92px;height:92px;border-radius:22px;box-shadow:0 18px 40px rgba(0,0,0,.22);object-fit:cover}.app-title-row h1{margin:0}.app-store-badge{display:inline-flex}.app-store-badge img{display:block;width:180px;height:54px}.store-actions{display:flex;align-items:center;gap:14px;margin-top:26px;flex-wrap:wrap}.store-actions .btn{height:54px;padding:0 18px;border-radius:12px}.hero-product-shot{display:flex;align-items:center;justify-content:center;min-height:360px}.hero-product-shot img{display:block;width:100%;max-width:210px;height:auto;object-fit:contain;transform:rotate(5deg);border-radius:24px;box-shadow:0 18px 40px rgba(15,35,64,.16)}.feature-card{min-height:220px;display:flex;flex-direction:column}.feature-card .mini-btn{margin-top:auto}.feature-links{background:var(--soft);border-block:1px solid var(--border)}.feature-links .card{min-height:250px}.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px}.price-card{background:#fff;border:1px solid var(--border);border-radius:22px;padding:24px;box-shadow:var(--shadow);display:flex;flex-direction:column}.price-card.featured{border:2px solid #2c9b57}.price-card h3{margin:8px 0}.price-line{font-size:28px;font-weight:900;color:var(--navy);margin:8px 0}.price-sub{color:var(--muted);font-size:14px}.price-card ul{padding-left:20px;color:var(--muted)}.price-card .mini-btn{margin-top:auto}.best-value{display:inline-flex;width:max-content;padding:6px 10px;border-radius:999px;background:#e4f4ea;color:#217a43;font-size:12px;font-weight:900}.screenshots{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.screenshots img{width:100%;height:auto;display:block;border-radius:22px;box-shadow:var(--shadow);border:1px solid var(--border);background:#06111f}.fine-note{margin-top:16px;color:var(--muted);font-size:14px}@media(max-width:980px){.pricing-grid{grid-template-columns:1fr 1fr}.screenshots{grid-template-columns:repeat(2,1fr)}.hero-product-shot{min-height:320px}.hero-product-shot img{max-width:200px}}@media(max-width:760px){.hero-product-shot{min-height:0;margin-top:20px}.hero-product-shot img{max-width:190px}.pricing-grid{grid-template-columns:1fr}}@media(max-width:560px){.app-title-row{display:block}.app-icon{margin-bottom:14px}.screenshots{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
-<header class="site-header">
-<div class="container header-inner">
-<a class="wordmark" href="/">VM LAB</a>
-<button class="menu-btn" aria-label="Open menu" aria-expanded="false">
-<span>
-</span>
-<span>
-</span>
-<span>
-</span>
-</button>
-<nav class="nav">
-<a href="/">Home</a>
-<a href="/apps/">Apps</a>
-<a href="/knowledge/">Knowledge</a>
-<a href="/projects/">Projects</a>
-<a href="/web-work/">Web Work</a>
-<a href="/contact/">Contact</a>
-</nav>
-</div>
-</header>
+<header class="site-header"><div class="container header-inner"><a class="wordmark" href="/">VM LAB</a><button class="menu-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button><nav class="nav"><a href="/">Home</a><a href="/apps/">Apps</a><a href="/knowledge/">Knowledge</a><a href="/projects/">Projects</a><a href="/web-work/">Web Work</a><a href="/contact/">Contact</a></nav></div></header>
 <main>
-<section class="hero">
-<div class="container hero-grid">
-<div>
-<div class="breadcrumbs">
-<a href="/">Home</a>
-<span>›</span>
-<a href="/apps/">Apps</a>
-<span>›</span>
-<span>GIG Income</span>
-</div>
-<span class="eyebrow">iPhone Apps · Version 3.0.2</span>
-<div class="app-title-row">
-<img class="app-icon" src="/assets/images/gigincome/GIG%20Income%20icon.svg" width="92" height="92" decoding="async" alt="GIG Income app icon">
-<h1>GIG Income</h1>
-</div>
-<h2>Track real gig profit across multiple apps.</h2>
-<p class="lead">GIG Income helps multi-app gig workers record income, expenses, net profit, goals, calendar month and yearly stats, platform comparison, scheduled blocks, and Amazon Flex hours in one simple iPhone app.</p>
-<span class="version-pill">Version 3.0.2: Amazon Flex hour forecasts, scheduled blocks, goals, yearly insights, and faster income entry.</span>
-<div class="store-actions">
-<a class="app-store-badge" href="https://apps.apple.com/us/app/gig-income/id6770739845" target="_blank" rel="noopener noreferrer">
-<img src="/assets/images/app-store-badge.svg" alt="Download GIG Income on the App Store">
-</a>
-<a class="btn btn-secondary" href="/gig-income/amazon-flex-hours/">Amazon Flex Hours</a>
-</div>
-</div>
-<div class="hero-product-shot">
-<img src="/assets/images/gigincome/Screenshot%2001.png" decoding="async" alt="GIG Income app statistics screen">
-</div>
-</div>
-</section>
-<section class="section mileage-feature" id="mileage">
-<div class="container">
-<div class="mileage-title">
-<div>
-<div class="tag">Mileage Tracker</div>
-<h2>Track work miles. Connect trips to income.</h2>
-<p>Record routes and work time, attach one trip to multiple gig earnings, and export accountant-ready reports.</p>
-</div>
-<a class="btn btn-primary" href="https://apps.apple.com/us/app/gig-income/id6770739845" target="_blank" rel="noopener noreferrer">Start tracking with GIG Income</a>
-</div>
-<div class="grid grid-4 mileage-grid">
-<div class="card"><h3>Control every trip</h3><p>Start and stop from Home or Mileage. Pause during a break and resume when work continues; the gap is not counted as a driven route.</p></div>
-<div class="card"><h3>GPS or manual entry</h3><p>Save GPS route points, miles, work time, and available start/end locations—or add date, time, duration, and miles manually without a map.</p></div>
-<div class="card"><h3>Flexible income links</h3><p>Connect several trips to one income entry, or one shared work trip to earnings from multiple platforms.</p></div>
-<div class="card"><h3>Clear reports</h3><p>Export a Summary Report or Detailed Report. Both provide matching PDF and CSV files generated in English.</p></div>
-</div>
-<div class="mileage-flow" aria-label="Mileage workflow">
-<div class="mileage-step"><b>1. Start</b><span>Begin on Home or Mileage</span></div>
-<div class="mileage-step"><b>2. Pause</b><span>Pause and resume as needed</span></div>
-<div class="mileage-step"><b>3. Stop</b><span>Finish the work trip</span></div>
-<div class="mileage-step"><b>4. Review</b><span>Check miles, time, and route</span></div>
-<div class="mileage-step"><b>5. Link</b><span>Connect matching income</span></div>
-<div class="mileage-step"><b>6. Export</b><span>Create PDF and CSV reports</span></div>
-</div>
-<div class="mileage-columns">
-<div class="mileage-box"><h3>Trip history and Statistics</h3><ul><li>Daily, Weekly, Monthly, and Yearly periods with arrow navigation</li><li>All trips, Linked, and Not linked filters; Newest/Oldest sorting</li><li>Trip cards show miles, work time, link status, related income, and available locations</li><li>Statistics includes Miles, Work time, Income per Mile, Income per Hour, Income, Expenses, Net, Goal Progress, and Income by Platform</li><li>Adjustment entries are excluded from Needs mileage</li></ul></div>
-<div class="mileage-box"><h3>Expenses, receipts, and privacy</h3><ul><li>Organize expenses with categories such as Fuel, Vehicle, Food, Parking &amp; Tolls, and Other</li><li>Add a receipt photo from Camera or Photos to a new or existing expense</li><li>Location access records the route, distance, and available start/end locations only during active tracking</li><li>GPS accuracy depends on permissions, device, signal, and use conditions</li></ul></div>
-</div>
-<p class="mileage-note"><strong>A trip is not owned by one platform.</strong> Platforms belong to income entries. Linking a trip more than once never splits or duplicates its miles; overall mileage totals use unique trips.</p>
-<div class="mileage-columns">
-<div class="mileage-box"><h3>Summary Report</h3><p>Year or YTD totals, miles, work time, trip count, trip log, income links, and reconciliation in a compact accountant-ready package.</p><strong>PDF + CSV</strong></div>
-<div class="mileage-box"><h3>Detailed Report</h3><p>Everything in Summary, plus addresses, GPS details, and saved-route visualization where GPS points are available.</p><strong>PDF + CSV</strong></div>
-</div>
-<div class="mileage-faq"><h3>Mileage FAQ</h3>
-<details><summary>Does tracking start automatically?</summary><p>No. You start and stop tracking manually, so you control which trips are recorded.</p></details>
-<details><summary>Can one trip be linked to more than one platform?</summary><p>Yes. A single work trip can connect to income entries from multiple gig platforms used during the same period.</p></details>
-<details><summary>Can one income entry include several trips?</summary><p>Yes. This supports split shifts, such as separate morning and evening trips recorded under one income entry.</p></details>
-<details><summary>Can I add a trip without GPS?</summary><p>Yes. Manual trips store date, start/end time, duration, and miles without a route map.</p></details>
-<details><summary>Why might an address or route map be missing?</summary><p>Manual or imported trips may not contain GPS points, and address lookup depends on location data and geocoding availability.</p></details>
-</div>
-<details class="ru-block" lang="ru"><summary>Русская версия раздела</summary><div class="ru-content">
-<h2>Записывайте рабочие мили и связывайте поездки с доходами</h2><p>Записывайте маршруты и рабочее время, привязывайте одну поездку к нескольким доходам и выгружайте отчёты для бухгалтера.</p><p><strong>Редактирование свайпом:</strong> смахните влево любую запись дохода, расхода или Adjustment, чтобы открыть действия редактирования и обновить данные.</p>
-<div class="mileage-columns"><div class="mileage-box"><h3>Как это работает</h3><p><strong>Начать → Пауза/Продолжить → Остановить → Проверить → Связать с доходом → Экспортировать.</strong></p><p>Запись запускается вручную из Home или «Пробег». Ручную поездку можно добавить без GPS: сохраняются дата, время начала и конца, продолжительность и мили, но карта маршрута не создаётся.</p></div><div class="mileage-box"><h3>Связь с доходами</h3><p>Один доход может включать несколько поездок, а одна общая поездка — доходы нескольких gig-платформ. Повторная связь не делит и не удваивает мили; общая статистика считает уникальные поездки.</p></div></div>
-<div class="mileage-columns"><div class="mileage-box"><h3>История и статистика</h3><p>Периоды: по дням, неделям, месяцам и годам. Доступны фильтры «Все поездки», «Привязано», «Не привязано» и сортировка по дате. Statistics показывает пробег, рабочее время, доход на милю и час, доходы, расходы, чистый результат, прогресс цели и доход по платформам. Adjustment не включается в Needs mileage.</p></div><div class="mileage-box"><h3>Отчёты и чеки</h3><p>Summary Report и Detailed Report доступны в PDF и CSV; содержимое бухгалтерских файлов всегда создаётся на английском. К новому или существующему расходу можно добавить фото чека камерой или из Photos.</p></div></div>
-<p class="mileage-note"><strong>Важно:</strong> GIG Income — инструмент учёта, а не налоговая консультация. Точность GPS зависит от разрешений, устройства, сигнала и условий использования.</p>
-<div class="mileage-faq"><h3>Частые вопросы</h3><details><summary>Трекер запускается автоматически?</summary><p>Нет. Пользователь сам запускает и останавливает запись.</p></details><details><summary>Можно поставить поездку на паузу?</summary><p>Да. Перемещение между точками паузы не считается записанным маршрутом.</p></details><details><summary>Можно привязать несколько поездок к одному доходу?</summary><p>Да, например отдельные утреннюю и вечернюю смены.</p></details><details><summary>Нужен ли пробег для Adjustment?</summary><p>Нет. Adjustment не включается в Needs mileage.</p></details></div>
-</div></details>
-<p class="fine-print">GIG Income is a recordkeeping tool, not tax advice. Tax treatment should be confirmed with a qualified accountant. The app does not promise automatic trip detection or acceptance by a specific tax authority.</p>
-</div>
-</section>
-<section class="section">
-<div class="container">
-<div class="section-head">
-<div>
-<h2>Built for drivers who use more than one gig app</h2>
-<p class="section-subtitle">One platform can show its own payout. GIG Income is for the bigger picture: everything you earn, spend, and actually keep across all your gig work.</p>
-</div>
-</div>
-<div class="grid grid-3">
-<div class="card feature-card">
-<div class="tag">Income</div>
-<h3>Track multiple gig apps</h3>
-<p>Record income from Amazon Flex, DoorDash, Uber Eats, Instacart, Spark, Grubhub, Lyft, Uber, DeliverThat, and other platforms.</p>
-</div>
-<div class="card feature-card">
-<div class="tag">Profit</div>
-<h3>Know your real costs</h3>
-<p>Track gas, charging, food, parking, tolls, repairs, supplies, maintenance, and other gig expenses.</p>
-</div>
-<div class="card feature-card">
-<div class="tag">Goals</div>
-<h3>Net income goals</h3>
-<p>Set goals based on what you actually keep, not just gross platform payouts.</p>
-</div>
-<div class="card feature-card">
-<div class="tag">Stats</div>
-<h3>Month and year views</h3>
-<p>Review calendar month and yearly income instead of relying only on weekly payout screens inside gig apps.</p>
-</div>
-<div class="card feature-card">
-<div class="tag">Compare</div>
-<h3>Compare year by year</h3>
-<p>Review income, expenses, net profit, goals, and platform performance across multiple years.</p>
-</div>
-<div class="card feature-card">
-<div class="tag">Amazon Flex</div>
-<h3>Available hours and forecasts</h3>
-<p>Review recorded and scheduled blocks, rolling 7-day hours, current capacity, and an estimate for the next 12 hours.</p>
-<a class="mini-btn" href="/gig-income/amazon-flex-hours/">View Flex Feature →</a>
-</div>
-</div>
-<p class="mileage-note"><strong>Edit with a swipe.</strong> Swipe left on any Income, Expense, or Adjustment entry to open its editing actions and update the record.</p>
-</div>
-</section>
-<section class="section">
-<div class="container">
-<div class="section-head">
-<div>
-<h2>Current App Store screenshots</h2>
-<p class="section-subtitle">Version 3.0.2 screenshots in light and dark modes.</p>
-</div>
-</div>
-<div class="screenshots">
-<img src="/assets/images/gigincome/Screenshot%2001.png" alt="GIG Income overview in dark mode">
-<img src="/assets/images/gigincome/Screenshot%2002.png" alt="GIG Income overview in light mode">
-<img src="/assets/images/gigincome/03.png" alt="Add gig income in seconds">
-<img src="/assets/images/gigincome/04.png" alt="Capture Amazon Flex block details">
-<img src="/assets/images/gigincome/05.png" alt="Track expenses and net income">
-<img src="/assets/images/gigincome/06.png" alt="GIG Income light and dark mode">
-<img src="/assets/images/gigincome/07.png" alt="GIG Income statistics overview">
-<img src="/assets/images/gigincome/08.png" alt="GIG Income dark mode overview">
-<img src="/assets/images/gigincome/09.png" alt="GIG Income feature screen">
-<img src="/assets/images/gigincome/10.png" alt="GIG Income feature screen">
-<img src="/assets/images/gigincome/11.png" alt="Plan upcoming Amazon Flex blocks">
-<img src="/assets/images/gigincome/12.png" alt="See yearly gig income insights">
-<img src="/assets/images/gigincome/13.png" alt="Know available Amazon Flex hours">
-</div>
-</div>
-</section>
-<section class="band">
-<div class="container">
-<div class="page-copy">
-<h2>Use GIG Income when one gig app is not enough</h2>
-<p>If you use two or more platforms, GIG Income gives you one simple place to understand income, expenses, net profit, platform comparison, yearly performance, goals, and Amazon Flex hours.</p>
-<div class="app-download-block">
-<a class="app-store-badge" href="https://apps.apple.com/us/app/gig-income/id6770739845" target="_blank" rel="noopener noreferrer">
-<img src="/assets/images/app-store-badge.svg" alt="Download GIG Income on the App Store">
-</a>
-<p class="download-note">Available on the App Store.</p>
-</div>
-</div>
-</div>
-</section>
-<section class="section">
-<div class="container">
-<div class="section-head">
-<h2>Knowledge Center</h2>
-<a class="mini-btn" href="/knowledge/gig-economy/">Open Gig Economy Guides →</a>
-</div>
-<div class="grid grid-3">
-<a class="card blog-card" href="/knowledge/gig-economy/real-gig-profit-after-expenses/">
-<div class="tag">Income & Expenses</div>
-<h3>Calculate real gig profit after expenses</h3>
-<p>Understand what you actually keep after fuel, charging, tolls, parking, maintenance, and other work costs.</p>
-<span class="mini-btn">Read Guide →</span>
-</a>
-<a class="card blog-card" href="/knowledge/gig-economy/multiple-gig-apps/">
-<div class="tag">Multi-App Work</div>
-<h3>Track multiple gig apps in one place</h3>
-<p>Why one platform is not enough when your work is split across several apps.</p>
-<span class="mini-btn">Read Guide →</span>
-</a>
-<a class="card blog-card" href="/gig-income/amazon-flex-hours/">
-<div class="tag">Amazon Flex</div>
-<h3>Amazon Flex Hours Tracker</h3>
-<p>Track recorded and scheduled blocks, rolling 7-day hours, available hours, and forecasts.</p>
-<span class="mini-btn">View Feature →</span>
-</a>
-</div>
-</div>
-</section>
-<section class="section">
-<div class="container narrow">
-<h2>Resources</h2>
-<div class="actions">
-<a class="btn btn-secondary" href="/gig-income/privacy-policy/">Privacy Policy</a>
-<a class="btn btn-secondary" href="/gig-income/terms/">Terms of Use</a>
-<a class="btn btn-secondary" href="/gig-income/support/">Support</a>
-</div>
-</div>
-</section>
+<section class="hero"><div class="container hero-grid"><div><div class="breadcrumbs"><a href="/">Home</a><span>›</span><a href="/apps/">Apps</a><span>›</span><span>GIG Income</span></div><span class="eyebrow">iPhone App for Gig Workers</span><div class="app-title-row"><img class="app-icon" src="/assets/images/gigincome/GIG%20Income%20icon.svg" width="92" height="92" decoding="async" alt="GIG Income app icon"><h1>GIG Income</h1></div><h2>See what you really earn across all your gig work.</h2><p class="lead">Track income, expenses, net profit, mileage, work time, goals, yearly statistics, platform performance and Amazon Flex hours in one simple iPhone app.</p><div class="store-actions"><a class="app-store-badge" href="https://apps.apple.com/us/app/gig-income/id6770739845" target="_blank" rel="noopener noreferrer"><img src="/assets/images/app-store-badge.svg" alt="Download GIG Income on the App Store"></a><a class="btn btn-secondary" href="#pricing">Plans &amp; Pricing</a></div></div><div class="hero-product-shot"><img src="/assets/images/gigincome/Screenshot%2001.png" decoding="async" alt="GIG Income statistics screen"></div></div></section>
+
+<section class="section"><div class="container"><div class="section-head"><div><h2>Everything in one place</h2><p class="section-subtitle">Built for drivers and gig workers who use more than one platform and need a clearer picture than any single gig app can provide.</p></div></div><div class="grid grid-3"><div class="card feature-card"><div class="tag">Income</div><h3>Track multiple gig apps</h3><p>Record income from Amazon Flex, DoorDash, Uber Eats, Instacart, Spark, Grubhub, Lyft, Uber and other platforms.</p></div><div class="card feature-card"><div class="tag">Expenses</div><h3>Know your real costs</h3><p>Track fuel, charging, parking, tolls, repairs, supplies, maintenance and other work expenses.</p></div><div class="card feature-card"><div class="tag">Profit</div><h3>Understand what you keep</h3><p>See net income instead of relying only on gross platform payouts.</p></div><div class="card feature-card"><div class="tag">Goals</div><h3>Set net income goals</h3><p>Measure progress against what you actually keep after expenses.</p></div><div class="card feature-card"><div class="tag">Statistics</div><h3>Month and year views</h3><p>Review daily, monthly and yearly performance and compare results over time.</p></div><div class="card feature-card"><div class="tag">Platforms</div><h3>Compare gig apps</h3><p>See which platforms contribute most to your income and overall gig-work performance.</p></div></div></div></section>
+
+<section class="section feature-links"><div class="container"><div class="section-head"><div><h2>Major features</h2><p class="section-subtitle">The larger tools have their own pages so you can see exactly how each one works.</p></div></div><div class="grid grid-3"><a class="card blog-card" href="/gig-income/mileage/"><div class="tag">Mileage</div><h3>Mileage Tracking</h3><p>Start and stop work trips, track miles and work time, add manual trips, connect trips to income and export annual mileage reports.</p><span class="mini-btn">Explore Mileage →</span></a><a class="card blog-card" href="/gig-income/amazon-flex-hours/"><div class="tag">Amazon Flex</div><h3>Amazon Flex Hours</h3><p>Track recorded and scheduled blocks, rolling 7-day hours, remaining capacity and hour forecasts.</p><span class="mini-btn">Explore Flex Hours →</span></a><div class="card feature-card"><div class="tag">Pro</div><h3>More control and insight</h3><p>Unlock Pro features including advanced statistics, yearly insights, goals, unlimited platforms and additional app controls.</p><a class="mini-btn" href="#pricing">See Pro pricing →</a></div></div></div></section>
+
+<section class="section" id="pricing"><div class="container"><div class="section-head"><div><h2>Plans &amp; Pricing</h2><p class="section-subtitle">Choose Pro, Mileage, or get both together with the annual Bundle.</p></div></div><div class="pricing-grid"><div class="price-card"><div class="tag">Pro</div><h3>GIG Income Pro</h3><div class="price-line">$0.99 <span class="price-sub">/ month</span></div><div class="price-line">$9.99 <span class="price-sub">/ year</span></div><ul><li>Pro features and advanced app controls</li><li>Yearly insights and goals</li><li>Unlimited platform tracking</li></ul></div><div class="price-card"><div class="tag">Mileage</div><h3>Mileage Tracking</h3><div class="price-line">$1.99 <span class="price-sub">/ month</span></div><div class="price-line">$19.99 <span class="price-sub">/ year</span></div><ul><li>Work-mile and work-time tracking</li><li>GPS and manual trips</li><li>Mileage reports and exports</li></ul><a class="mini-btn" href="/gig-income/mileage/">Mileage details →</a></div><div class="price-card featured"><span class="best-value">BEST VALUE</span><h3>Pro + Mileage Bundle</h3><div class="price-line">$24.99 <span class="price-sub">/ year</span></div><ul><li>Everything in Pro</li><li>Everything in Mileage</li><li>One annual plan at a lower combined price</li></ul></div></div><p class="fine-note">Subscriptions are purchased through the App Store. New plan availability may depend on App Store review and rollout timing.</p></div></section>
+
+<section class="section"><div class="container"><div class="section-head"><div><h2>Current app screenshots</h2><p class="section-subtitle">A look at GIG Income across tracking, statistics and Amazon Flex tools.</p></div></div><div class="screenshots"><img src="/assets/images/gigincome/Screenshot%2001.png" alt="GIG Income overview in dark mode"><img src="/assets/images/gigincome/Screenshot%2002.png" alt="GIG Income overview in light mode"><img src="/assets/images/gigincome/03.png" alt="Add gig income"><img src="/assets/images/gigincome/05.png" alt="Track expenses and net income"><img src="/assets/images/gigincome/07.png" alt="GIG Income statistics overview"><img src="/assets/images/gigincome/11.png" alt="Plan Amazon Flex blocks"><img src="/assets/images/gigincome/12.png" alt="Yearly gig income insights"><img src="/assets/images/gigincome/13.png" alt="Amazon Flex hours availability and forecast"></div></div></section>
+
+<section class="band"><div class="container"><div class="page-copy"><h2>One app for the bigger picture</h2><p>If your work is split across several gig platforms, GIG Income gives you one place to understand income, expenses, net profit, mileage, time and platform performance.</p><div class="store-actions"><a class="app-store-badge" href="https://apps.apple.com/us/app/gig-income/id6770739845" target="_blank" rel="noopener noreferrer"><img src="/assets/images/app-store-badge.svg" alt="Download GIG Income on the App Store"></a></div></div></div></section>
+
+<section class="section"><div class="container"><div class="section-head"><h2>Knowledge Center</h2><a class="mini-btn" href="/knowledge/gig-economy/">Open Gig Economy Guides →</a></div><div class="grid grid-3"><a class="card blog-card" href="/knowledge/gig-economy/real-gig-profit-after-expenses/"><div class="tag">Income &amp; Expenses</div><h3>Calculate real gig profit after expenses</h3><p>Understand what you actually keep after fuel, charging, tolls, parking, maintenance and other work costs.</p><span class="mini-btn">Read Guide →</span></a><a class="card blog-card" href="/knowledge/gig-economy/multiple-gig-apps/"><div class="tag">Multi-App Work</div><h3>Track multiple gig apps in one place</h3><p>Why one platform is not enough when your work is split across several apps.</p><span class="mini-btn">Read Guide →</span></a><a class="card blog-card" href="/gig-income/mileage/"><div class="tag">Mileage</div><h3>Work Mileage Tracker</h3><p>See how GIG Income records work trips, miles, time, income links and annual mileage reports.</p><span class="mini-btn">View Feature →</span></a></div></div></section>
+
+<section class="section"><div class="container narrow"><h2>Resources</h2><div class="actions"><a class="btn btn-secondary" href="/gig-income/privacy-policy/">Privacy Policy</a><a class="btn btn-secondary" href="/gig-income/terms/">Terms of Use</a><a class="btn btn-secondary" href="/gig-income/support/">Support</a></div></div></section>
 </main>
-<footer class="footer">
-<div class="container footer-inner">
-<div>© 2026 VM LAB</div>
-<div>
-<a href="/privacy/">Privacy</a> &nbsp;|&nbsp; <a href="/support/">Support</a> &nbsp;|&nbsp; <a href="/contact/">Contact</a>
-</div>
-</div>
-</footer>
-<script src="/assets/js/main.js">
-</script>
+<footer class="footer"><div class="container footer-inner"><div>© 2026 VM LAB</div><div><a href="/privacy/">Privacy</a> &nbsp;|&nbsp; <a href="/support/">Support</a> &nbsp;|&nbsp; <a href="/contact/">Contact</a></div></div></footer>
+<script src="/assets/js/main.js"></script>
 </body>
 </html>
